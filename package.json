@@ -1,14 +1,14 @@
 {
   "name": "ssr",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node server for SSR",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
   },
-  "author": "Emmanuel Henri",
+  "author": "Valery Buko",
   "license": "ISC",
   "dependencies": {
     "@zeit/next-css": "0.0.7",
@@ -20,5 +20,14 @@
     "redux": "^3.7.2",
     "redux-devtools-extension": "^2.13.2",
     "redux-thunk": "^2.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valerybuko/server-side-rendering.git"
+  },
+  "bugs": {
+    "url": "https://github.com/valerybuko/server-side-rendering/issues"
+  },
+  "homepage": "https://github.com/valerybuko/server-side-rendering#readme"
 }
