@@ -20,7 +20,7 @@ export default class Index extends Component {
                 </header>
                 <div className="Grid">
                     {
-                        this.props.cards.map( card => <Card/>)
+                        this.props.cards.map( card => <Card key={card.id} />)
                     }
                 </div>
             </div>
