@@ -1,0 +1,18 @@
+{
+  "name": "ssr",
+  "version": "1.0.0",
+  "description": "Server Side Rendering",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "author": "Valery Buko",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
