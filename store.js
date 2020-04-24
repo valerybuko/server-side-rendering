@@ -25,6 +25,21 @@ export const addItem = (item) => {
     }
 }
 
+export const rootReducer = (state = initialState, action) => {
+    switch (action.type) {
+        case 'INITIALCARDS':
+            return {
+                cards: action.cards,
+            }
+        case 'ADD':
+            return {
+                ...state,
+                cards: [...state.cards, action.item]
+            }
+        default: return state
+    }
+}
+
 export const initStore = (initialState = startState) => {
-    return createStore(reducer, initialState, composeWithDevTools(applyMiddleware(thunkMiddleware)));
+    return createStore(rootReducer, initialState, composeWithDevTools(applyMiddleware(thunkMiddleware)));
 }
