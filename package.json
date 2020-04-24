@@ -1,7 +1,7 @@
 {
   "name": "ssr",
   "version": "1.0.0",
-  "description": "Node server for SSR",
+  "description": "Client side",
   "main": "index.js",
   "scripts": {
     "dev": "next",
